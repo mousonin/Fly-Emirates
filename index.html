@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emirates</title>
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reponsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="noti-head">
+        <div class="content flex space-between">
+          <div class="noti-txt flex">
+            <i class="bi bi-exclamation-circle"></i>
+            <p>Important:</p>
+            <a href="#"
+              >Suspended partner airline flights to cities in Russia, Ukraine
+              and Belarus</a
+            >
+          </div>
+          <a href="#">
+            Show more
+            <i class="bi bi-caret-down"></i>
+          </a>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <div class="content flex space-between">
+          <div class="logo">
+            <img src="./acess/1200px-Emirates_logo.svg.png" alt="logo" />
+          </div>
+          <ul class="nav-bar-option flex" style="flex-grow: 1">
+            <li class="nav-option-item" onclick="openDropDown(e,name)">
+              <p>BOOK</p>
+              <div class="drop-down-option" class="dropDownContent">
+                <div class="content flex">
+                  <ul class="drop-down-item">
+                    Book
+                  </ul>
+                  <ul class="drop-down-item">
+                    About booking
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-option-item">MANAGE</li>
+            <li class="nav-option-item">EXPERIENCE</li>
+            <li class="nav-option-item">WHERE WE FLY</li>
+            <li class="nav-option-item">LOYALTY</li>
+            <li class="nav-option-item">HELP</li>
+          </ul>
+          <ul class="nav-bar-option flex">
+            <li class="nav-option-item flex">
+              <i class="bi bi-compass"></i>
+              <p>GB</p>
+            </li>
+            <li class="nav-option-item">
+              <i class="bi bi-search"></i>
+            </li>
+            <li class="nav-option-item flex">
+              <i class="bi bi-person-circle"></i>
+              <p>LOG IN</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="content">
+          <div class="slider-content">
+            <p>Don't just fly,</p>
+            <p>FLY BETTER</p>
+            <input type="button" value="Learn more" class="btn" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./main.js"></script>
+  </body>
+</html>
